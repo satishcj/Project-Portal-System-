@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Oct, 2017, 7:43:41 PM
+    Author     : Dolly
+*/
+
+h1{
+    font-size: 70px;
+    font-family: Aharoni;
+    background-color: tomato;
+    padding-left: 330px;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;   
+}
+
+.guest{
+    margin-top: 0;
+    margin-left: 1000px;
+}
+body{
+    background-color: whitesmoke;
+}
+
+form {
+    border: 3px solid #f1f1f1;
+    margin-left: 450px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-right: 450px;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #34617c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
