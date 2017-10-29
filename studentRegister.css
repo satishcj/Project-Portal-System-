@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 25, 2017, 10:31:59 PM
+    Author     : Chi
+*/
+form {
+    border: 3px solid #f1f1f1;
+    margin-left: 450px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-right: 450px;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=radio]{
+    padding: 12px 20px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.button {
+    background-color: #34617c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 8px; 
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+.container {
+    padding: 16px;
+}
+
+textarea{
+    resize: none;
+    margin:8px 0;
+    padding: 12px 20px;
+}
+
+table{
+    margin:8px 0;
+}
