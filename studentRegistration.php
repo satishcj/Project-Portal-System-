@@ -7,23 +7,26 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="studentRegister.css"/>
-        <title>Register</title>
+        <link rel="stylesheet" href="registration.css"/>
+        <title>Student Registeration Page</title>
         <script src="studentRegister.js"></script>
     </head>
     <body onload="document.register.stuname.focus();">
-        <form  method="post" name="register" onsubmit="return validation();">
+        <form action="index.php" method="post" name="register" onsubmit="return validation();">
     
         <div class="container">
         <h2>Register</h2>
-        <label><b>Student Name</b></label>
+        <label><b>Name</b></label>  
         <input type="text" placeholder="Enter Student Name" name="suname" >
 
-        <label><b>Branch</b></label>
-        <input type="text" placeholder="Enter Student Branch" name="branch" required>
-                
         <label><b>Registration Number</b></label>
         <input type="text" placeholder="Enter Registration number" name="regno" required>
+        
+        <label><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        
+        <label><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="conpsw" required>
         
         <label><b>Email</b></label>
         <input type="text" placeholder="Enter Email Address" name="email" required>
@@ -34,7 +37,18 @@ and open the template in the editor.
         <label><b>Address</b></label>
         <textarea rows="4"cols="48" name="address"  required></textarea>
         
-        <label><b>Date of Birth</b></label>
+        <label><b>Branch    </b></label>
+        <select>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="me">ME</option>
+            <option value="ee">EE</option>
+        </select>
+            
+        <br>
+        <br>
+        
+        <label> <b>Date of Birth</b></label>
         <input type="date" name="date" required>
         
         <label><b>Gender</b></label><br>
@@ -44,15 +58,7 @@ and open the template in the editor.
                 <td><input type="radio" name="gender" value="Female" >Female</td>
             </tr>
         </table>
-        
-        <label style="white-space: pre-wrap;"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" required>
-                
-        <label><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
-        
-        <label><b>Confirm Password</b></label>
-        <input type="password" placeholder="Confirm Password" name="conpsw" required>
+                            
                 
         <button type="submit" class="button">Register</button>
 
